@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\item">
+      <UniqueIdentifier>{c8a1be09-eed5-4d6f-a875-b083547e1111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\graph">
+      <UniqueIdentifier>{e9f3bad5-0a9c-43ca-a3c6-144b74975ab6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\chara">
+      <UniqueIdentifier>{31c14e18-2674-439a-b09f-c5f09f01a6a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\item">
+      <UniqueIdentifier>{47e93b56-ab34-47ba-9e53-67aa384df4a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\graph">
+      <UniqueIdentifier>{0a2afecf-6565-4483-a30d-0247e67f3aca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\chara">
+      <UniqueIdentifier>{47dbe42a-a776-4731-88b2-1376c93c5e15}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="setting.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugDraw.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="proceedScene.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="collision.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="selectScene.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="routine.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="item.cpp">
+      <Filter>ソース ファイル\item</Filter>
+    </ClCompile>
+    <ClCompile Include="cupcake.cpp">
+      <Filter>ソース ファイル\item</Filter>
+    </ClCompile>
+    <ClCompile Include="rocket.cpp">
+      <Filter>ソース ファイル\item</Filter>
+    </ClCompile>
+    <ClCompile Include="shield.cpp">
+      <Filter>ソース ファイル\item</Filter>
+    </ClCompile>
+    <ClCompile Include="wing.cpp">
+      <Filter>ソース ファイル\item</Filter>
+    </ClCompile>
+    <ClCompile Include="backGraph.cpp">
+      <Filter>ソース ファイル\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="titleGraph.cpp">
+      <Filter>ソース ファイル\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="transition.cpp">
+      <Filter>ソース ファイル\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="clearGraph.cpp">
+      <Filter>ソース ファイル\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="animation.cpp">
+      <Filter>ソース ファイル\chara</Filter>
+    </ClCompile>
+    <ClCompile Include="bird.cpp">
+      <Filter>ソース ファイル\chara</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>ソース ファイル\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>ソース ファイル\chara</Filter>
+    </ClCompile>
+    <ClCompile Include="sandClock.cpp">
+      <Filter>ソース ファイル\item</Filter>
+    </ClCompile>
+    <ClCompile Include="chargeEffect.cpp">
+      <Filter>ソース ファイル\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="ufo.cpp">
+      <Filter>ソース ファイル\item</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="setting.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugDraw.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="proceedScene.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="collision.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="selectScene.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="includeAll.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="routine.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="cupCake.h">
+      <Filter>ヘッダー ファイル\item</Filter>
+    </ClInclude>
+    <ClInclude Include="item.h">
+      <Filter>ヘッダー ファイル\item</Filter>
+    </ClInclude>
+    <ClInclude Include="rocket.h">
+      <Filter>ヘッダー ファイル\item</Filter>
+    </ClInclude>
+    <ClInclude Include="shield.h">
+      <Filter>ヘッダー ファイル\item</Filter>
+    </ClInclude>
+    <ClInclude Include="wing.h">
+      <Filter>ヘッダー ファイル\item</Filter>
+    </ClInclude>
+    <ClInclude Include="backGraph.h">
+      <Filter>ヘッダー ファイル\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="clearGraph.h">
+      <Filter>ヘッダー ファイル\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="titleGraph.h">
+      <Filter>ヘッダー ファイル\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>ヘッダー ファイル\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="transition.h">
+      <Filter>ヘッダー ファイル\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>ヘッダー ファイル\chara</Filter>
+    </ClInclude>
+    <ClInclude Include="bird.h">
+      <Filter>ヘッダー ファイル\chara</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>ヘッダー ファイル\chara</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="sandClock.h">
+      <Filter>ヘッダー ファイル\item</Filter>
+    </ClInclude>
+    <ClInclude Include="ufo.h">
+      <Filter>ヘッダー ファイル\item</Filter>
+    </ClInclude>
+    <ClInclude Include="chargeEffect.h">
+      <Filter>ヘッダー ファイル\graph</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

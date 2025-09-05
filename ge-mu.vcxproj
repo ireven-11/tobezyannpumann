@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{6a7c42a7-a128-4844-9a69-e2b3385d9adb}</ProjectGuid>
+    <RootNamespace>gemu</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>tobezyannpumann</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>EffekseerForDXLib</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>EffekseerForDXLib</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>EffekseerForDXLib</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>EffekseerForDXLib</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>EffekseerForDXLib</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>EffekseerForDXLib</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>EffekseerForDXLib</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>EffekseerForDXLib</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="animation.cpp" />
+    <ClCompile Include="backGraph.cpp" />
+    <ClCompile Include="bird.cpp" />
+    <ClCompile Include="camera.cpp" />
+    <ClCompile Include="chargeEffect.cpp" />
+    <ClCompile Include="clearGraph.cpp" />
+    <ClCompile Include="collision.cpp" />
+    <ClCompile Include="cupcake.cpp" />
+    <ClCompile Include="DebugDraw.cpp" />
+    <ClCompile Include="item.cpp" />
+    <ClCompile Include="rocket.cpp" />
+    <ClCompile Include="routine.cpp" />
+    <ClCompile Include="sandClock.cpp" />
+    <ClCompile Include="setting.cpp" />
+    <ClCompile Include="effect.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="player.cpp" />
+    <ClCompile Include="proceedScene.cpp" />
+    <ClCompile Include="selectScene.cpp" />
+    <ClCompile Include="shield.cpp" />
+    <ClCompile Include="timer.cpp" />
+    <ClCompile Include="titleGraph.cpp" />
+    <ClCompile Include="transition.cpp" />
+    <ClCompile Include="ufo.cpp" />
+    <ClCompile Include="UI.cpp" />
+    <ClCompile Include="wing.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="animation.h" />
+    <ClInclude Include="backGraph.h" />
+    <ClInclude Include="bird.h" />
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="chargeEffect.h" />
+    <ClInclude Include="clearGraph.h" />
+    <ClInclude Include="collision.h" />
+    <ClInclude Include="common.h" />
+    <ClInclude Include="cupCake.h" />
+    <ClInclude Include="DebugDraw.h" />
+    <ClInclude Include="effect.h" />
+    <ClInclude Include="includeAll.h" />
+    <ClInclude Include="item.h" />
+    <ClInclude Include="player.h" />
+    <ClInclude Include="proceedScene.h" />
+    <ClInclude Include="rocket.h" />
+    <ClInclude Include="routine.h" />
+    <ClInclude Include="sandClock.h" />
+    <ClInclude Include="selectScene.h" />
+    <ClInclude Include="setting.h" />
+    <ClInclude Include="shield.h" />
+    <ClInclude Include="timer.h" />
+    <ClInclude Include="titleGraph.h" />
+    <ClInclude Include="transition.h" />
+    <ClInclude Include="ufo.h" />
+    <ClInclude Include="UI.h" />
+    <ClInclude Include="wing.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="packages\DxLib.vc.3.2.4.3\build\native\DxLib.vc.targets" Condition="Exists('packages\DxLib.vc.3.2.4.3\build\native\DxLib.vc.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>このプロジェクトは、このコンピューター上にない NuGet パッケージを参照しています。それらのパッケージをダウンロードするには、[NuGet パッケージの復元] を使用します。詳細については、http://go.microsoft.com/fwlink/?LinkID=322105 を参照してください。見つからないファイルは {0} です。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\DxLib.vc.3.2.4.3\build\native\DxLib.vc.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\DxLib.vc.3.2.4.3\build\native\DxLib.vc.targets'))" />
+  </Target>
+</Project>
