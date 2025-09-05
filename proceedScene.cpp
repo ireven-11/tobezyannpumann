@@ -67,7 +67,7 @@ void ProceedScene::proceedPLAY(bool& isPrevButton)
 //ƒNƒŠƒA‰æ–Ê‚Ö
 void ProceedScene::proceedCLEAR(Timer* timer)
 {
-    if (timer->GetsecondsTimer_() == standardNumber || CheckHitKey(KEY_INPUT_1) == 1)
+    if (timer->GetsecondsTimer_() <= standardNumber || CheckHitKey(KEY_INPUT_1) == 1)
     {
         sceneType_ = CLEAR;
 
