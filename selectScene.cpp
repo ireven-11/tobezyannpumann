@@ -26,7 +26,7 @@ void SelectScene::Init_()
 void SelectScene::Update(int sceneType)
 {
     //ポーズとタイトルの時だけ最大シーンナンバーが変わる
-    if (sceneType == PAUSE || sceneType == TITLE)
+    if (sceneType == PAUSE /*|| sceneType == TITLE*/)
     {
         maxSceneNumber_ = maxPauseSceneNumber;
     }

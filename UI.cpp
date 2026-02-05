@@ -102,19 +102,19 @@ void UI::drawTitleUI(SelectScene* selectScene)
 	{
 		DrawStringToHandle(textPlayPositionX, textPlayPositionY, "play", GetColor(255, 50, 50), fontSize75_);
 		DrawStringToHandle(textDictionary.x, textDictionary.y, "itemDictionary", GetColor(255, 255, 255), fontSize75_);
-		DrawStringToHandle(textCreditsPositionX-10, textCreditsPositionY, "Tutorial", GetColor(255, 255, 255), fontSize75_);
+		//DrawStringToHandle(textCreditsPositionX-10, textCreditsPositionY, "Tutorial", GetColor(255, 255, 255), fontSize75_);
 	}
 	else if (selectScene->GetsceneNumber_() == 1)
 	{
 		DrawStringToHandle(textPlayPositionX, textPlayPositionY, "play", GetColor(255, 255, 255), fontSize75_);
 		DrawStringToHandle(textDictionary.x, textDictionary.y, "itemDictionary", GetColor(255, 50, 50), fontSize75_);
-		DrawStringToHandle(textCreditsPositionX-10, textCreditsPositionY, "Tutorial", GetColor(255, 255, 255), fontSize75_);
+		//DrawStringToHandle(textCreditsPositionX-10, textCreditsPositionY, "Tutorial", GetColor(255, 255, 255), fontSize75_);
 	}
 	else
 	{
 		DrawStringToHandle(textPlayPositionX, textPlayPositionY, "play", GetColor(255, 255, 255), fontSize75_);
 		DrawStringToHandle(textDictionary.x, textDictionary.y, "itemDictionary", GetColor(255, 255, 255), fontSize75_);
-		DrawStringToHandle(textCreditsPositionX-10, textCreditsPositionY, "Tutorial", GetColor(255, 50, 50), fontSize75_);
+		//DrawStringToHandle(textCreditsPositionX-10, textCreditsPositionY, "Tutorial", GetColor(255, 50, 50), fontSize75_);
 	}
 
 	//ëÄçÏï˚ñ@UI

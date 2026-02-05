@@ -180,10 +180,10 @@ void ProceedScene::sceneProceeder(BackGraph* backGraph, Bird* bird[], Camera* ca
         }
         else
         {
-            if (CheckHitKey(KEY_INPUT_RETURN) == TRUE)
+            //if (CheckHitKey(KEY_INPUT_RETURN) == TRUE)
             {
-                sceneType_ = TUTORIAL;
-                WaitTimer(500);
+                //sceneType_ = TUTORIAL;
+                //aitTimer(500);
             }
         }
 
